@@ -320,29 +320,29 @@ number. Their payload is specified in dedicated sections. Each section is named
 after the Packet Kind it describes followed by the byte value in parentheses,
 e.g. [Ping Request (0x00)](#ping-request-0x00).
 
-| Byte value | Packet Kind         |
-|:-----------|:--------------------|
-| `0x00`     | Ping Request        |
-| `0x01`     | Ping Response       |
-| `0x02`     | Nodes Request       |
-| `0x04`     | Nodes Response      |
-| `0x18`     | Cookie Request      |
-| `0x19`     | Cookie Response     |
-| `0x1a`     | Crypto Handshake    |
-| `0x1b`     | Crypto Data         |
-| `0x20`     | DHT Request         |
-| `0x21`     | LAN Discovery       |
-| `0x80`     | Onion Request 0     |
-| `0x81`     | Onion Request 1     |
-| `0x82`     | Onion Request 2     |
-| `0x83`     | Announce Request    |
-| `0x84`     | Announce Response   |
-| `0x85`     | Onion Data Request  |
-| `0x86`     | Onion Data Response |
-| `0x8c`     | Onion Response 3    |
-| `0x8d`     | Onion Response 2    |
-| `0x8e`     | Onion Response 1    |
-| `0xf0`     | Bootstrap Info      |
+| Byte value | Packet Kind                                      |
+|:-----------|:-------------------------------------------------|
+| `0x00`     | [Ping Request](#ping-request-0x00)               |
+| `0x01`     | [Ping Response](#ping-response-0x01)             |
+| `0x02`     | [Nodes Request](#nodes-request-0x02)             |
+| `0x04`     | [Nodes Response](#nodes-response-0x04)           |
+| `0x18`     | [Cookie Request](#cookie-request-0x18)           |
+| `0x19`     | [Cookie Response](#cookie-response-0x19)         |
+| `0x1a`     | [Crypto Handshake](#crypto-handshake-0x1a)       |
+| `0x1b`     | [Crypto Data](#crypto-data-0x1b)                 |
+| `0x20`     | [DHT Request](#dht-request-0x20)                 |
+| `0x21`     | [LAN Discovery](#lan-discovery-0x21)             |
+| `0x80`     | [Onion Request 0](#onion-request-0-0x80)         |
+| `0x81`     | [Onion Request 1](#onion-request-1-0x81)         |
+| `0x82`     | [Onion Request 2](#onion-request-2-0x82)         |
+| `0x83`     | [Announce Request](#announce-request-0x83)       |
+| `0x84`     | [Announce Response](#announce-response-0x84)     |
+| `0x85`     | [Onion Data Request](#onion-data-request-0x85)   |
+| `0x86`     | [Onion Data Response](#onion-data-response-0x86) |
+| `0x8c`     | [Onion Response 3](#onion-response-3-0x8c)       |
+| `0x8d`     | [Onion Response 2](#onion-response-2-0x8d)       |
+| `0x8e`     | [Onion Response 1](#onion-response-1-0x8e)       |
+| `0xf0`     | [Bootstrap Info](#dht-bootstrap-info-0xf0)       |
 
 # DHT
 
